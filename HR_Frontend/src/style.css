@@ -1,0 +1,405 @@
+/*SideNavbar*/
+.sidebar-menu {
+  height: 100vh;
+  padding: 20px 20px;
+  background-color: black;
+  position: fixed;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 15px 20px;
+  color: #cbd5e0;
+
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  background-color: #2d3748;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.submenu {
+  padding-left: 10px;
+}
+
+.submenu-link {
+  display: block;
+  padding: 10px 20px;
+  color: #cbd5e0;
+  text-decoration: none;
+}
+
+.submenu-link:hover,
+.submenu-link.active {
+  background-color: #4a5568;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.forms {
+  display: flex;
+}
+
+.forms-content {
+  flex-grow: 1;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/*frorm page*/
+.forms-sidebar-menu {
+  height: 100vh;
+  padding: 20px 20px;
+  background-color: black;
+  position: fixed;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.back-button {
+  color: #94919c;
+  scale: 1;
+}
+.back-button :hover {
+  cursor: pointer;
+  scale: 1.5;
+}
+.col {
+  height: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.card {
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  max-height: 400px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 924px;
+  padding: 20px 20px;
+  border-radius: 14px;
+  margin-top: 11px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.form {
+  padding-bottom: 30px;
+}
+.label {
+  margin-top: 15px;
+}
+.submit-button {
+  border: none;
+  background-color: #17eb;
+  margin-top: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 9px;
+  width: 100px;
+  transition: all 2s ease;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 1.5);
+}
+.submit-button:active {
+  transform: translateY(50px);
+}
+
+.styled-input {
+  width: 33rem;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*Overview Page*/
+.overview {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+/*data table styling*/
+.table-container {
+  max-height: 500px;
+
+  width: 924px;
+
+  border-radius: 14px;
+
+  font-family: Arial, sans-serif;
+}
+.tbl-container {
+  border-radius: 15px;
+  margin-top: 35px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content button {
+  margin-right: 10px;
+}
+.main-content {
+  flex: 3;
+  flex-direction: column;
+  padding: 20px;
+}
+.preboarding {
+  display: flex;
+}
+.sidebar {
+  flex: 1;
+}
+
+/*predobaring style*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 2rem;
+}
+
+.pre-card {
+  width: 100%;
+  max-width: 95vh;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.required {
+  color: red;
+  margin-left: 0.5rem;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+}
+
+.form-check-label {
+  margin-left: 0.5rem;
+}
+
+.DocUpload p {
+  font-weight: bold;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+}
+
+/* Xcel sheet upload button*/
+.sheet {
+  right: 0px;
+  bottom: 20px;
+  padding: 10px;
+  position: fixed;
+  border-radius: 5px;
+}
+/* logo */
+.signin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative; /* Added to allow absolute positioning of logo */
+}
+
+.top-left-logo {
+  position: absolute;
+  top: 24px;
+  left: 13px;
+  width: 219px;
+  height: 30px;
+}
+
+.logo {
+  justify-content: center;
+}
+.required {
+  color: red;
+  font-weight: bold;
+}
+/* DradDrop*/
+.drag-drop {
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+.document-uploader {
+  border: 2px dashed #4282fe;
+  background-color: #f4fbff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &.active {
+    border-color: #6dc24b;
+  }
+
+  .upload-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    svg {
+      font-size: 36px;
+      margin-right: 1rem;
+    }
+
+    div {
+      p {
+        margin: 0;
+        font-size: 16px;
+      }
+
+      p:first-child {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .file-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    height: 30vh;
+    &__container {
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+    }
+  }
+
+  .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+
+    .file-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      flex: 1;
+
+      p {
+        margin: 0;
+        font-size: 14px;
+        color: #333;
+      }
+    }
+
+    .file-actions {
+      cursor: pointer;
+
+      svg {
+        font-size: 18px;
+        color: #888;
+      }
+
+      &:hover {
+        svg {
+          color: #d44;
+        }
+      }
+    }
+  }
+
+  .browse-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    /* background-color: var(--primary-color); */
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  .success-file {
+    display: flex;
+    align-items: center;
+    color: #6dc24b;
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  input[type="file"] {
+    display: none;
+  }
+}

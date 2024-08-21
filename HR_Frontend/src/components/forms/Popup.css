@@ -1,0 +1,25 @@
+.info-icon {
+    position: relative;
+    cursor: pointer;
+  }
+ 
+  .info-icon::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 150%;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 10;
+  }
+ 
+  .info-icon:hover::after {
+    opacity: 1;
+  }

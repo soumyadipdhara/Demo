@@ -1,0 +1,19 @@
+/* App.css */
+
+.app {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  /* background-color: #f7fafc; */
+}
+.row{
+  height: 100vh;
+  width: 100%;
+}
+body {
+  background: linear-gradient(268deg, rgb(25, 49, 108) 2.8%, rgb(1, 179, 201) 97.8%);
+}
+

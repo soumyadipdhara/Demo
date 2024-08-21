@@ -1,0 +1,30 @@
+/* Card styles with theme-based backgrounds */
+.card {
+  transition: background-color 0.3s ease;
+}
+
+/* Light and dark theme backgrounds for cards */
+.card.light {
+  background-color: rgba(163, 198, 219, 0.82); /* Light theme background */
+}
+
+.card.dark {
+  background-color: rgba(37, 49, 55, 0.82); /* Dark theme background */
+}
+
+/* Seasonal backgrounds */
+.card.winter {
+  background-color: rgb(217,235,246,0.9); /* Winter theme background */
+}
+
+.card.rainy {
+  background-color: rgb(217,235,246,0.9); /* Spring theme background */
+}
+
+.card.summer {
+  background-color: rgba(255, 255, 0, 0.5); /* Summer theme background */
+}
+
+.card.autumn {
+  background-color: rgba(255, 165, 0, 0.5); /* Autumn theme background */
+}

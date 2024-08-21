@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background: linear-gradient(
+    268deg,
+    rgb(25, 49, 108) 2.8%,
+    rgb(1, 179, 201) 97.8%
+  ); */
+  /* background-color: #101720;  */
+  background-color: #18122b;
+  background-size: cover;
+}
+z .signin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.frmbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.signin-box {
+  background: #635985;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: left;
+  width: 300px;
+}
+.toplogo {
+  top: 0;
+  right: 0;
+}

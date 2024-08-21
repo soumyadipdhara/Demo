@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": true,
+  "tsx": false,
+  "tailwind": {
+    "config": "onboarding\\HR_Frontend\\tailwind.config.js",
+    "css": "style.css",
+    "baseColor": "gray",
+    "cssVariables": true,
+    "prefix": " "
+  },
+  "aliases": {
+    "components": "@/SignIn.jsx",
+    "utils": "onboarding\\HR_Frontend\\src\\lib\\utils.js",
+    "ui": "@/SignIn.jsx/ui",
+    "examples": "@/SignIn.jsx/examples",
+    "blocks": "@/SignIn.jsx/blocks"
+  }
+}
